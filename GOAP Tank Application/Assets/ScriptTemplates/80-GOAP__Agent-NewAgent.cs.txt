@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using GOAP;
+
+public class #SCRIPTNAME# : Agent
+{
+    public override void Start()
+    {
+	//alter agents personal states here
+	//e.g Invoke(FuctionName), Random.Range(0, 5));
+
+        base.Start();
+    }
+	
+	//public void FuctionName()
+    //{
+        //personalState.ModifyState("State to modify", 1);
+    //}
+}
